@@ -4,63 +4,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Helplytics Ai</title>
+  <title>HelpHub Ai</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 
-<body>
-  <nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0  md:bg-[#eeeee2]">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <div class="flex flex-row gap-[10px]">
-        <img src="images/Helplytics logo.png" class="h-7" alt="Flowbite Logo" />
-        <span class="self-center text-xl text-heading font-semibold  flex flex-row">HelpHub AI</span>
-      </div>
-      <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-[10px]">
-        <button type="button"
-          class=" bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none md:text-[#acada7] md:rounded-[20px] bg-[#fbfaf5]">Live
-          community signals</button>
-        <button type="button"
-          class="text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none md:bg-[#209b89] md:rounded-[20px]">Join
-          the platform</button>
-        <button data-collapse-toggle="navbar-cta" type="button"
-          class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
-          aria-controls="navbar-cta" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-            viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
-          </svg>
-        </button>
-      </div>
-      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+<body class="bg-gradient-to-br from-[#D6E8E0] via-[#EDEAE3] to-[#F5E6D8] mx-[7%]">
+  <nav class="bg-[#f1efe3] fixed w-full  top-0 start-0  place-content-evenly ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="images/Helplytics logo.png" class="h-7" alt="Flowbite Logo">
+        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">HelpHub AI</span>
+      </a>
+
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary flex justify-center item-center">
-          <li class="">
+          class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary">
+          <li>
             <a href="#"
-              class="block py-2 px-3 w-[62px] h-[25px] text-[#494b44]  hover:bg-[#dae1d9] md:hover:text-[#173430]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]"
+              class="block py-2 px-3 text-[#7d7f74] rounded-3xl text-green-900 transition duration-200 hover:bg-green-100"
               aria-current="page">Home</a>
           </li>
-
           <li>
             <a href="#"
-              class="block py-2 px-3 w-[70px] h-[25px] text-[#494b44]  hover:bg-[#dae1d9] md:hover:text-[#173430]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]">Explore</a>
-          </li>
-
-          <li class="">
-            <a href="#"
-              class="block py-2 px-3 w-[120px] h-[25px] text-[#494b44]  hover:bg-[#dae1d9] md:hover:text-[#173430]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]">Leaderboard</a>
+              class="block py-2 px-3 text-[#7d7f74] rounded-3xl text-green-900 transition duration-200 hover:bg-green-100">Explore</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 w-[90px] h-[25px] text-[#494b44]  hover:bg-[#dae1d9] md:hover:text-[#173430]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]">AI
+              class="block py-2 px-3 text-[#7d7f74] rounded-3xl text-green-900 transition duration-200 hover:bg-green-100">Leaderboard</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-[#7d7f74] rounded-3xl text-green-900 transition duration-200 hover:bg-green-100">Ai
               Center</a>
           </li>
         </ul>
       </div>
+      <div class=" order-2 flex gap-[20px] ">
+        <button type="button" class="px-[18px] py-[2px] bg-[#fafaf6] rounded-3xl text-[#7d7f74] ">Live community
+          signals</button>
+
+        <a href="signup.html"
+          class="px-[24px] py-3 font-bold  rounded-3xl  text-white bg-gradient-to-r from-[#0b8176] to-[#11af9b] hover:from-[#249e63] hover:to-[#159c85] transition-all duration-300">join
+          the platform</a>
+      </div>
     </div>
   </nav>
+  <section class="mt-[200px] px-8 py-8 flex justify-around px-[10%] max-w-auto rounded-2xl flex w-auto max-h-[]">
+    <div class="bg-[#f1ede4] p-8 rounded-2xl ">
+      <div>
+        <div class="leading-[20px]">
+          <p class="text-[#0e8172]">SMIT GRAND CODING NIGHT 2026</p><br>
+          <h1 class="font-bold text-5xl ">Find help faster.<br>
+            Become help that <br>
+            matters.
+          </h1><br>
+        </div>
+        <div>
+          <div>
+            <p>HelpHub AI is a community-powered support network for students, mentors,<br>creators, and builders. Ask
+              for help, offer help, track impact, and let AI surface<br>smarter matches across the platform.</p><br>
+          </div>
+          <div class=" order-2 flex gap-[20px] ">
+            <button type="button"
+              class="px-[24px] py-3 font-bold  rounded-3xl  text-white bg-gradient-to-r from-[#0b8176] to-[#11af9b] hover:from-[#249e63] hover:to-[#159c85] transition-all duration-300">Open
+              demo products</button>
+            <a href="request.html"> <button type="button"
+                class="px-[18px] py-[8px] bg-[#fafaf6] rounded-3xl text-[#7d7f74] ">Post a request</button></a>
+          </div>
+        </div>
+      </div>
 
+      <div class="flex gap-[20px]">
+        <div class="px-4 py-6 bg-white max-w-[180px] mt-[20px] rounded-2xl">
+          <p class="text-[#0e8172] font-bold ">Member</p>
+          <h2 class="text-xl font-bold">384+</h2>
+          <p>Students,monitors <br> and helper <br> in the loop</p>
+        </div>
+        <div class="px-4 py-6 bg-white max-w-[180px] mt-[20px] rounded-2xl">
+          <p class="text-[#0e8172] font-bold ">Request</p>
+          <h2 class="text-xl font-bold">79+</h2>
+          <p>Students,monitors <br> and helper <br> in the loop</p>
+        </div>
+        <div class="px-4 py-6 bg-white max-w-[180px] mt-[20px] rounded-2xl">
+          <p class="text-[#0e8172] font-bold ">Solved</p>
+          <h2 class="text-xl font-bold">69+</h2>
+          <p>Students,monitors <br> and helper <br> in the loop</p>
+        </div>
+      </div>
+    </div>
+    <div class=" flex items-center justify-center p-6 ">
+      <div class=" bg-[#0f3b34] text-white rounded-3xl p-8 w-[350px]">
+        <p class="text-xs tracking-widest text-gray-300 mb-3">
+          LIVE PRODUCT FEEL
+        </p>
+        <h1 class="text-3xl font-semibold leading-tight mb-4">
+          More than a form.<br />
+          More like an ecosystem.
+        </h1>
+        <p class="text-sm text-gray-300 mb-6 leading-relaxed">
+          A polished multi-page experience inspired by product platforms, with AI summaries, trust scores, contribution
+          signals, notifications, and leaderboard momentum built directly in HTML, CSS, JavaScript, and LocalStorage.
+        </p>
+        <div class="bg-[#e9e5dd] text-gray-800 rounded-2xl p-4 mb-4">
+          <h3 class="font-semibold mb-1">AI request intelligence</h3>
+          <p class="text-sm">
+            Auto-categorization, urgency detection, tags, rewrite suggestions, and trend snapshots.
+          </p>
+        </div>
+        <div class="bg-[#e9e5dd] text-gray-800 rounded-2xl p-4 mb-4">
+          <h3 class="font-semibold mb-1">Community trust graph</h3>
+          <p class="text-sm">
+            Badges, helper rankings, trust score boosts, and visible contribution history.
+          </p>
+        </div>
+        <div class="bg-[#e9e5dd] text-gray-800 rounded-2xl p-4">
+          <h3 class="font-semibold mb-1">100%</h3>
+          <p class="text-sm">
+            Top trust score currently active across the sample mentor network.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="max-w-7xl mx-auto px-6 py-10">
+      <h4 class="text-sm text-gray-500 font-semibold tracking-wide uppercase mb-2">
+        Core Flow
+      </h4>
+
+      <div class="flex justify-between items-center mb-6">
+        <h1 class="text-3xl font-bold">
+          From struggling alone to solving together
+        </h1>
+        <button class="bg-white shadow px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100">
+          Try onboarding AI
+        </button>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold mb-2">Ask for help clearly</h3>
+          <p class="text-sm text-gray-500">
+            Create structured requests with category, urgency, AI suggestions, and tags that attract the right people.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold mb-2">Discover the right people</h3>
+          <p class="text-sm text-gray-500">
+            Use the explore feed, helper lists, notifications, and messaging to move quickly once a match happens.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold mb-2">Track real contribution</h3>
+          <p class="text-sm text-gray-500">
+            Trust scores, badges, solved requests, and rankings help the community recognize meaningful support.
+          </p>
+        </div>
+
+      </div>
+      <div class="flex justify-between items-center mb-4">
+        <h4 class="text-sm text-gray-500 font-semibold uppercase">
+          Featured Requests
+        </h4>
+        <button class="bg-white shadow px-4 py-2 rounded-full text-sm hover:bg-gray-100">
+          View full feed
+        </button>
+      </div>
+      <h2 class="text-2xl font-bold mb-6">
+        Community problems currently in motion
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-5 rounded-2xl shadow">
+          <div class="flex gap-2 mb-3 text-xs">
+            <span class="bg-green-100 text-green-600 px-2 py-1 rounded-full">Web Development</span>
+            <span class="bg-red-100 text-red-600 px-2 py-1 rounded-full">High</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full">Solved</span>
+          </div>
+          <h3 class="font-semibold mb-2">Need help</h3>
+          <p class="text-sm text-gray-500 mb-4">help needed</p>
+          <div class="flex justify-between items-center">
+            <div>
+              <p class="font-medium">Ayesha Khan</p>
+              <p class="text-xs text-gray-500">Karachi • 1 helper interested</p>
+            </div>
+            <button class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200">
+              Open details
+            </button>
+          </div>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow">
+          <div class="flex gap-2 mb-3 text-xs">
+            <span class="bg-green-100 text-green-600 px-2 py-1 rounded-full">Web Development</span>
+            <span class="bg-red-100 text-red-600 px-2 py-1 rounded-full">High</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full">Solved</span>
+          </div>
+          <h3 class="font-semibold mb-2">Need help making my portfolio responsive before demo day</h3>
+          <p class="text-sm text-gray-500 mb-3">
+            My HTML/CSS portfolio breaks on tablets and I need layout guidance before tomorrow evening.
+          </p>
+          <div class="flex gap-2 mb-4 text-xs">
+            <span class="bg-gray-100 px-2 py-1 rounded-full">HTML/CSS</span>
+            <span class="bg-gray-100 px-2 py-1 rounded-full">Responsive</span>
+            <span class="bg-gray-100 px-2 py-1 rounded-full">Portfolio</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <div>
+              <p class="font-medium">Sara Noor</p>
+              <p class="text-xs text-gray-500">Karachi • 1 helper interested</p>
+            </div>
+            <button class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200">
+              Open details
+            </button>
+          </div>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow">
+          <div class="flex gap-2 mb-3 text-xs">
+            <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full">Design</span>
+            <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">Medium</span>
+            <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Open</span>
+          </div>
+          <h3 class="font-semibold mb-2">
+            Looking for figma feedback on a volunteer event poster
+          </h3>
+          <p class="text-sm text-gray-500 mb-3">
+            I have a draft poster for a campus community event and want sharper hierarchy, spacing, and CTA copy.
+          </p>
+          <div class="flex gap-2 mb-4 text-xs">
+            <span class="bg-gray-100 px-2 py-1 rounded-full">Figma</span>
+            <span class="bg-gray-100 px-2 py-1 rounded-full">Poster</span>
+            <span class="bg-gray-100 px-2 py-1 rounded-full">Design Review</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <div>
+              <p class="font-medium">Ayesha Khan</p>
+              <p class="text-xs text-gray-500">Lahore • 1 helper interested</p>
+            </div>
+            <button class="bg-gray-100 px-3 py-1 rounded-full text-sm hover:bg-gray-200">
+              Open details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.netnpm/flowbite@4.0.1/dist/flowbite.min.js"></script>
 </body>
 
 </html>
