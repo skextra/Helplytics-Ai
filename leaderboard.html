@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+  <title>Leaderboard </title>
+    <link rel="shortcut icon" href="images/Helplytics logo.png" type="image/x-icon">
+
+
+  <style>
+    body {
+      background: #f5f1e8;
+    }
+  </style>
+</head>
+
+<body>
+    <nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default md:bg-[#f3efe4]">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex flex-row gap-[10px]">
+                <img src="images/Helplytics logo.png" class="h-7" alt="Flowbite Logo" />
+                <span class="self-center text-xl text-heading font-semibold  flex flex-row">HelpHub AI</span>
+            </a>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary flex justify-center item-center">
+                    <li class="">
+                        <a href="#"
+                            class="block py-2 px-3 w-[100px] h-[25px] text-[#c2c2b8]  hover:bg-[#dae1d9] md:hover:text-[#88a89e]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]"
+                            aria-current="page">Dashboard</a>
+                    </li>
+                    
+                    <li>
+                        <a href="explore.html"
+                            class="block py-2 px-3 w-[70px] h-[25px] text-[#c2c2b8]  hover:bg-[#dae1d9] md:hover:text-[#88a89e]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]">Explore</a>
+                    </li>
+                    
+                    <li class="">
+                        <a href="leaderboard.html"
+                            class="block py-2 px-3 w-[120px] h-[25px] text-[#c2c2b8]  hover:bg-[#dae1d9] md:hover:text-[#88a89e]  md:bg-transparent flex justify-center md:p-0 hover:rounded-[20px]">Leaderboard</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<br><br><br>
+
+  <section class="max-w-6xl mx-auto mt-10 px-4">
+    <div class="bg-gradient-to-r from-[#1f2d2f] to-[#2e3f3c] text-white p-10 rounded-3xl shadow-lg">
+      <p class="text-xs tracking-widest font-semibold text-gray-300 mb-3">LEADERBOARD</p>
+      <h1 class="text-6xl font-bold leading-tight mb-4">
+        Recognize the people who keep the community moving.
+      </h1>
+      <p class="text-gray-300 text-sm">
+        Trust score, contribution count, and badges create visible momentum for reliable helpers.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto mt-10 p-6 px-4 grid lg:grid-cols-2 gap-6">
+    <div class="p-6 bg-white rounded-3xl p-6 shadow-xl" >
+      <p class="text-xs text-teal-600 font-semibold mb-2">TOP HELPERS</p>
+      <h2 class="text-2xl font-bold mb-4">Rankings</h2>
+      <div class="flex items-center justify-between bg-gray-50 rounded-xl p-4 mb-3">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center text-sm">HA</div>
+          <div>
+            <p class="font-semibold">#2 Hassan Ali</p>
+            <p class="text-sm text-gray-500">JavaScript, React, Git/GitHub</p>
+          </div>
+        </div>
+        <div class="text-right">
+          <p class="font-semibold">88%</p>
+          <p class="text-xs text-gray-400">24 contributions</p>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between bg-gray-50 rounded-xl p-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-orange-400 text-white flex items-center justify-center text-sm">SN</div>
+          <div>
+            <p class="font-semibold">#3 Sara Noor</p>
+            <p class="text-sm text-gray-500">Python, Data Analysis</p>
+          </div>
+        </div>
+        <div class="text-right">
+          <p class="font-semibold">74%</p>
+          <p class="text-xs text-gray-400">11 contributions</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="bg-white rounded-3xl p-6 shadow-xl">
+
+      <p class="text-xs text-teal-600 font-semibold mb-2">BADGE SYSTEM</p><br>
+      <h2 class="text-2xl font-bold mb-4">Trust and achievement</h2>
+      <div class="mb-5">
+        <p class="font-semibold">Hassan Ali</p>
+        <p class="text-sm text-gray-500 mb-2">Code Rescuer • Bug Hunter</p>
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
+          <div class="h-2.5 rounded-full bg-gradient-to-r from-yellow-400 via-green-500 to-teal-600 w-[75%]"></div>
+        </div>
+      </div>
+      <div>
+        <p class="font-semibold">Sara Noor</p>
+        <p class="text-sm text-gray-500 mb-2">Community Voice</p>
+
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
+          <div class="h-2.5 rounded-full bg-gradient-to-r from-yellow-400 via-green-500 to-teal-600 w-[60%]"></div>
+        </div>
+      </div>
+
+    <br>
+  </section>
+  <br>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+</body>
+</html>

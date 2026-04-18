@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/Helplytics logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .squircle {
+            border-radius: 35%;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-300 min-h-screen pb-20">
+
+    <header class="max-w-5xl mx-auto pt-10 px-6">
+        <nav
+            class="flex items-center justify-between bg-white/50 backdrop-blur-md py-3 px-6 rounded-full border border-black/5 mb-8">
+            <div class="flex items-center gap-3">
+                <div
+                    class="w-8 h-8 bg-[#1A9B8D] squircle flex items-center justify-center text-white font-bold text-xs">
+                    H</div>
+                <span class="font-bold text-sm text-[#1E262B]">Helphub AI</span>
+            </div>
+            <div class="flex items-center gap-8 text-sm font-medium text-gray-500">
+                <a href="#" class="hover:text-black">Dashboard</a>
+                <a href="request.html" class="hover:text-black">Create Request</a>
+                <a href="aicenter.html" class="bg-[#E6EBE7] text-[#1A9B8D] px-4 py-2 rounded-full">AI Center</a>
+            </div>
+        </nav>
+        <div class="bg-[#1E262B] text-white p-10 rounded-[40px] mb-8">
+            <p class="text-[10px] tracking-widest uppercase font-bold opacity-60 mb-4">AI Center</p>
+            <h1 class="text-5xl font-bold leading-tight max-w-2xl mb-4">See what the platform intelligence is noticing.
+            </h1>
+            <p class="text-sm opacity-60 max-w-xl">AI-like insights summarize demand trends, helper readiness, urgency
+                signals, and request recommendations.</p>
+        </div>
+
+
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="bg-white p-8 rounded-[32px] shadow-sm border border-black/[0.03]">
+                <p class="text-[10px] tracking-widest uppercase font-bold text-[#1A9B8D] mb-4">Trend Pulse</p>
+                <h3 class="text-2xl font-bold mb-4">Web Development</h3>
+                <p class="text-sm text-gray-500 leading-relaxed">Most common support area based on active community
+                    requests.</p>
+            </div>
+            <div class="bg-white p-8 rounded-[32px] shadow-sm border border-black/[0.03]">
+                <p class="text-[10px] tracking-widest uppercase font-bold text-[#1A9B8D] mb-4">Urgency Watch</p>
+                <h3 class="text-4xl font-bold mb-4">2</h3>
+                <p class="text-sm text-gray-500 leading-relaxed">Requests currently flagged high priority by the urgency
+                    detector.</p>
+            </div>
+            <div class="bg-white p-8 rounded-[32px] shadow-sm border border-black/[0.03]">
+                <p class="text-[10px] tracking-widest uppercase font-bold text-[#1A9B8D] mb-4">Mentor Pool</p>
+                <h3 class="text-4xl font-bold mb-4">2</h3>
+                <p class="text-sm text-gray-500 leading-relaxed">Trusted helpers with strong response history and
+                    contribution signals.</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-10 rounded-[40px] shadow-sm border border-black/[0.03]">
+            <p class="text-[10px] tracking-widest uppercase font-bold text-[#1A9B8D] mb-4">AI Recommendations</p>
+            <h2 class="text-3xl font-bold mb-8">Requests needing attention</h2>
+
+            <div class="space-y-4">
+                <div class="bg-[#F8F7F2] p-6 rounded-[24px]">
+                    <h4 class="font-bold text-sm mb-2">Need help</h4>
+                    <p class="text-xs text-gray-500 mb-4">AI summary: Web Development request with high urgency. Best
+                        suited for members with relevant expertise.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="bg-[#E6EBE7] text-[#1A9B8D] text-[10px] font-bold px-3 py-1 rounded-full border border-[#1A9B8D]/20">Web
+                            Development</span>
+                        <span
+                            class="bg-[#E6EBE7] text-[#1A9B8D] text-[10px] font-bold px-3 py-1 rounded-full border border-[#1A9B8D]/20">High</span>
+                    </div>
+                </div>
+
+                <div class="bg-[#F8F7F2] p-6 rounded-[24px]">
+                    <h4 class="font-bold text-sm mb-2">Need help making my portfolio responsive before demo day</h4>
+                    <p class="text-xs text-gray-500 mb-4">Responsive layout issue with a short deadline. Best helpers
+                        are frontend mentors comfortable with CSS grids and media queries.</p>
+                    <div class="flex gap-2">
+                        <span
+                            class="bg-[#E6EBE7] text-[#1A9B8D] text-[10px] font-bold px-3 py-1 rounded-full border border-[#1A9B8D]/20">Web
+                            Development</span>
+                        <span
+                            class="bg-[#E6EBE7] text-[#1A9B8D] text-[10px] font-bold px-3 py-1 rounded-full border border-[#1A9B8D]/20">High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
